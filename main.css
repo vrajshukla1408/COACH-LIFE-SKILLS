@@ -1,0 +1,141 @@
+html{
+	  scroll-behavior: smooth;
+}
+.navbar{
+	background-color: white;
+	color: red;
+}
+.icon{
+	color:orange;
+	margin-right:90px;
+	font-size:30px;
+}
+.icon:hover{
+	color: orange;
+}
+body{
+	background-image:url('https://www.mycrd.in/templates/template2/bgwood.jpg');
+	background-repeat:repeat;
+	scroll-behavior:smooth;
+}
+.main{
+	background-color: white;
+	width:500px;
+}
+.header-right-corner{
+	border-top:7px solid orange;
+	border-right:7px solid orange;
+}
+.header-left-corner{
+	border-top:7px solid orange;
+	border-left:7px solid orange;
+}
+.bottom-corner-left{
+	border-bottom:7px solid orange;
+	border-left:7px solid orange;
+}
+.bottom-corner-right{
+	border-bottom:7px solid orange;
+	border-right : 7px solid orange;
+}
+.head-btns{    
+	width:23%;
+	padding: 8px 10px;
+    border-radius: 50px;
+    min-width: 70px;
+    display: inline-block;
+    font-size: 12px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2), 0 0 40px rgba(255, 251, 251, 0.1) inset;
+    text-align: center;
+    background-color: #424242;
+    color: #fff;
+    border: none;
+    margin-right: 5px;
+    margin-bottom: 10px;
+}
+.head-btns i{
+	font-size:15px;
+}
+.section-container{
+	    text-align: left;
+    padding: 20px;
+    margin-top: 15px;
+    line-height: 22px;
+    font-size: 14px;
+    position: relative;
+    box-shadow: 1px 2px 15px #48484833;
+    background: #fff;
+    overflow: hidden;
+    word-break: break-word;
+}	
+.document-wrapper{
+	    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    border: 2px solid #555555;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    color: #555555;
+}
+.product{
+	background-color: pink;
+	margin-top:50px;
+}
+.product-title{
+	 font-size:20px;
+    text-align:center;
+    font-weight: bolder;
+    margin: 0;
+    padding: 0;
+    margin-bottom:0px;
+    font-family: 'Uniform Medium';
+}
+.product-btn{
+	background-color:orange;
+}
+.product img{
+	padding:10%;
+	width:100%;
+}
+
+
+
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+
+

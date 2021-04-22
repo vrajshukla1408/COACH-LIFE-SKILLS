@@ -161,6 +161,7 @@ body{
 
 @media screen and (max-width:380px){
   .main{
+    margin:0px;
   }
   .header-left-corner{
     width:10px;

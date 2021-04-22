@@ -6,12 +6,12 @@ html{
 	color: red;
 }
 .icon{
-	color:orange;
+	color:#f17d3a;
 	margin-right:90px;
 	font-size:30px;
 }
 .icon:hover{
-	color: orange;
+	color: #f17d3a;
 }
 body{
 	background-image:url('https://www.mycrd.in/templates/template2/bgwood.jpg');
@@ -20,26 +20,48 @@ body{
 }
 .main{
 	background-color: white;
-	width:500px;
+	width:450px;
 }
 .header-right-corner{
-	border-top:7px solid orange;
-	border-right:7px solid orange;
+	right:-8px;
+	height:86px;
+	border-width:50px;
+	border-top:7px solid #f17d3a;
+	border-right:7px solid #f17d3a;
 }
 .header-left-corner{
-	border-top:7px solid orange;
-	border-left:7px solid orange;
+	margin-left:-4px;
+	border-top:7px solid #f17d3a;
+	border-left:7px solid #f17d3a;
 }
 .bottom-corner-left{
-	border-bottom:7px solid orange;
-	border-left:7px solid orange;
+  margin-left:-4px;
+	border-bottom:7px solid #f17d3a;
+	border-left:7px solid #f17d3a;
 }
 .bottom-corner-right{
-	border-bottom:7px solid orange;
-	border-right : 7px solid orange;
+  right:-8px;
+	border-bottom:7px solid #f17d3a;
+	border-right : 7px solid #f17d3a;
 }
-.head-btns{    
-	width:23%;
+.head-view{
+    padding: 5px 5px;
+    color: #fff;
+    left:0;
+    top: 0;
+    width:115px;
+    height:30px;
+    border: 1px solid transparent;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    font-size: 14px;
+    margin-bottom: 0px;
+    border-top: 0;
+    background:#f17d3a;
+}
+.head-btns{
+	height:30px;	    
+	width:90px;
 	padding: 8px 10px;
     border-radius: 50px;
     min-width: 70px;
@@ -92,7 +114,7 @@ body{
     font-family: 'Uniform Medium';
 }
 .product-btn{
-	background-color:orange;
+	background-color:#f17d3a;
 }
 .product img{
 	padding:10%;
@@ -137,5 +159,32 @@ body{
   }
 }
 
+@media screen and (max-width:380px){
+  .main{
+  }
+  .header-left-corner{
+    width:10px;
+  }
+  .header-right-corner{
+    width:10px;
+    margin-top:-95px;
+    margin-left:400px;
+    height:60px;
+  }
+  .bottom-corner-left{
+    width:10px;
+  }
+  .head-view{
+    margin-top:-55px;
+    margin-bottom:65px;
+  }
 
+  .bottom-corner-right{
+  right:0px;
+  height:75px;
+  margin-top:-75px;
+  border-bottom:7px solid #f17d3a;
+  border-right : 7px solid #f17d3a;
+  }
+}
 

@@ -17,6 +17,7 @@ body{
 	background-image:url('https://www.mycrd.in/templates/template2/bgwood.jpg');
 	background-repeat:repeat;
 	scroll-behavior:smooth;
+  padding:20px;
 }
 .main{
 	background-color: white;
@@ -78,8 +79,33 @@ body{
 .head-btns i{
 	font-size:15px;
 }
+.scrollmenu {
+      background-color: #fff;
+      color: black;
+      overflow: auto;
+      white-space: nowrap;
+  }
+  .scrollmenu a {
+      display: inline-block;
+      color: black;
+      text-align: center;
+      padding: 10px;
+      font-size:20px;
+      margin-right:60px;
+      text-decoration: none;
+  }
+  .scrollmenu i{
+      color: #f17d3a;
+      font-size:20px;
+  }
+  .scrollmenu a:hover {
+      color:#f17d3a;
+  }
+  .scrollmenu #fooet-menu{
+    margin-left:50px;
+  }
 .section-container{
-	    text-align: left;
+	  text-align: left;
     padding: 20px;
     margin-top: 15px;
     line-height: 22px;
@@ -181,11 +207,22 @@ body{
   }
 
   .bottom-corner-right{
-  right:0px;
+  right:-410px;
+  width:10px;
   height:75px;
   margin-top:-75px;
   border-bottom:7px solid #f17d3a;
   border-right : 7px solid #f17d3a;
+  }
+  .scrollmenu a {
+    font-size:10px;
+    margin-right:0px;
+  }
+  .scrollmenu #fooet-menu {
+    margin-left:5px;
+  }
+  body{
+    padding:0px;
   }
 }
 
